@@ -11,6 +11,7 @@ namespace ArraylistConsoleApp
     {
         static void Main(string[] args)
         {
+            #region
             ArrayList al = new ArrayList();
             Console.WriteLine("Now Array Capacity : " + al.Capacity);
             al.Add(100);
@@ -33,6 +34,10 @@ namespace ArraylistConsoleApp
 
 
             Console.WriteLine();
+            #endregion
+
+
+            
         }
     }
 }

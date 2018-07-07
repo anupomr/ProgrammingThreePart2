@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraylistConsoleApp", "ArraylistConsoleApp\ArraylistConsoleApp.csproj", "{1D04BE18-4A98-461D-9EF6-18E4AE26E979}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableConsoleApp1", "HashTableConsoleApp1\HashTableConsoleApp1.csproj", "{7AD49DB7-8861-4F78-97E5-6809E155F40C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{1D04BE18-4A98-461D-9EF6-18E4AE26E979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D04BE18-4A98-461D-9EF6-18E4AE26E979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D04BE18-4A98-461D-9EF6-18E4AE26E979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD49DB7-8861-4F78-97E5-6809E155F40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD49DB7-8861-4F78-97E5-6809E155F40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD49DB7-8861-4F78-97E5-6809E155F40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD49DB7-8861-4F78-97E5-6809E155F40C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A83EB0C3-7254-49E8-A029-BA784242E9D6} = {EE002384-C5C2-46DB-99F5-05FFC1177698}
 		{1D04BE18-4A98-461D-9EF6-18E4AE26E979} = {EE002384-C5C2-46DB-99F5-05FFC1177698}
+		{7AD49DB7-8861-4F78-97E5-6809E155F40C} = {EE002384-C5C2-46DB-99F5-05FFC1177698}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {923E19FE-B16D-49EF-BE36-370D9322B48B}
