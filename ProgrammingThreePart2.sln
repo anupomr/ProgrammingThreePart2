@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week09", "Week09", "{337714
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{A83EB0C3-7254-49E8-A029-BA784242E9D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraylistConsoleApp", "ArraylistConsoleApp\ArraylistConsoleApp.csproj", "{1D04BE18-4A98-461D-9EF6-18E4AE26E979}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{A83EB0C3-7254-49E8-A029-BA784242E9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A83EB0C3-7254-49E8-A029-BA784242E9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A83EB0C3-7254-49E8-A029-BA784242E9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D04BE18-4A98-461D-9EF6-18E4AE26E979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D04BE18-4A98-461D-9EF6-18E4AE26E979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D04BE18-4A98-461D-9EF6-18E4AE26E979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D04BE18-4A98-461D-9EF6-18E4AE26E979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A83EB0C3-7254-49E8-A029-BA784242E9D6} = {EE002384-C5C2-46DB-99F5-05FFC1177698}
+		{1D04BE18-4A98-461D-9EF6-18E4AE26E979} = {EE002384-C5C2-46DB-99F5-05FFC1177698}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {923E19FE-B16D-49EF-BE36-370D9322B48B}
