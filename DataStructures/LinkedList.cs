@@ -90,6 +90,55 @@ namespace DataStructures
             //now we are at the first node
             toKeep.Next = null;
         }
+        public void Count() {
+            int result = 1;
+            Node toKeep = last.Next;
+            Node current = last;
+
+            // output current node data while not at end of list
+            while (current.Next != null)
+            {
+                result++;
+                toKeep = current;
+                current = current.Next;
+
+            }
+            Console.WriteLine("Total = "+result);
+        }
+        public void Sum()
+        {
+            int result = 0;
+            Node toKeep = last.Next;
+            Node current = last;
+            result += current.Data;
+            // output current node data while not at end of list
+            while (current.Next != null)
+            {
+                result+=current.Next.Data;
+                toKeep = current;
+                current = current.Next;
+
+
+            } 
+            Console.WriteLine("Sum = " + result);
+        }
+        public void Search(int newData)
+        {
+           
+            Node toKeep = last.Next;
+            Node current = last;
+           
+            // output current node data while not at end of list
+            while (current.Next != null)
+            {
+               
+                toKeep = current;
+                if (current.Data == newData)
+                { Console.WriteLine("Data found !!"); }
+                current = current.Next;
+            }
+           
+        }
         public bool IsEmpty() => last == null;
         public void RemoveLast()
         {

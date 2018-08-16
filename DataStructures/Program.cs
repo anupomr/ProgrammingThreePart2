@@ -16,6 +16,10 @@ namespace DataStructures
             list.Print();
             list.AddAfterLast(66);
             list.Print();
+          
+            list.Count();
+            list.Sum();
+            list.Search(200);
         }
     }
 }

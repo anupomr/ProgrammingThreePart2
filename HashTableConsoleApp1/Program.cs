@@ -20,6 +20,11 @@ namespace HashTableConsoleApp1
             ht.Add("Email","anupomr@gmail.com");
             ht.Add("Locatio", "anupomr@gmail.com");
             Console.WriteLine(ht["Email"]);
+            Console.WriteLine("---------------------------------------------------------------");
+            foreach (object item in ht.Keys)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
